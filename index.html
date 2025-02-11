@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rủ em ý đi chơi Valentine</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="images/catflower.jpg"></img>
+            <h1 class="hh" id="name">Em iu à</h1>
+            <p class="pp" id="question">Valentine em đi choi với anh nhá 😍?</p>
+            <div class="buttons">
+                <button id="no-button" onclick="showMessage('No')">Không anh</button>
+                <button onclick="showMessage('Yes')" id="yesButton">Tất nhiên ạ</button>
+            </div>
+            <div class="hidden-message" id="no-message">
+                <p>Cho chọn lại lần nữa</p>
+            </div>
+            <div class="hidden-message" id="yes-message">
+                <p>YEEEEEE! Yêu em</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
